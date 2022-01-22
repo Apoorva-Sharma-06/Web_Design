@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JavaJam Coffee Menu</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="javajam.css">
+</head>
+
+<body>
+  <div id='wrapper'>
+    <header>
+      <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+      <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="music.html">Music</a>
+          </li>
+          <li>
+            <a href="#">Jobs</a>
+          </li>
+          <li>
+            <a href="survey.html">Survey</a>
+          </li>
+      </ul>
+    </nav>
+    <main>
+      <h2 style="text-align: center;">Survey</h2>
+      <p style="text-align: center;">
+        Please help us serve you better!!!!!</p>
+      <form>
+        <table width="80%" border="1" align="center">
+          <tr>
+            <td><label for="name">Name：</label></td>
+            <td><input type="text" name="name"></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+              <input type="radio" name="gender" value="male">male
+              <input type="radio" name="gender" value="famale">female
+              <input type="radio" name="gender" value="others">others
+            </td>
+          </tr>
+          <tr>
+            <td><label for="tel">Tel Number:</label></td>
+            <td><input type="tel" name="tel"></td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail:</label></td>
+            <td><input type="email" name="email"></td>
+          </tr>
+          <tr>
+            <td><label for="coffee">What hot beverage did you like the most?</label></td>
+            <td><input type="text" name="hotbeverage" list="hotbeverages"></td>
+            <datalist id="coffees">
+              <option value="Cappuccino">
+              <option value="Espresso">
+              <option value="Latte">
+            </datalist>
+            <tr>
+              <td><label for="singer">What cold beverage did you like the most?</label></td>
+              <td><input type="text" name="coldbeverage" list="coldbeverages"></td>
+              <datalist id="coldbeverages">
+                <option value="Cold Coffee">
+                <option value="Icecream Coffee">
+              </datalist>
+              <tr>
+              <td><label for="sweet">Would you recommend  JavaJam Coffee House to your friends?</label></td>
+              <td>&nbsp;Not sure<input type="range" name="recommendation">highly recommend</td>
+            </tr>
+          </tr>
+          <tr>
+            <td><label for="date">When is your birthday?</label></td>
+            <td><input type="date" name="date"></td>
+          </tr>
+          <tr>
+            <td><label for="date">Date of taking the survey:</label></td>
+            <td><input type="date" name="date"></td>
+          </tr>
+          <tr>
+            <td><label for="comment">Say something to us:</label></td>
+            <td><textarea name="comment" cols="30" rows="3"></textarea></td>
+          </tr>
+        </table>
+        <center>
+          <input type="submit" value="Submit" id="submit">
+        </center>
+      </form>
+    </main>
+    <footer>
+      Copyright &copy; 2021 JavaJam Coffee House<br>
+      <a href="mailto:javajam@gmail.com">javajam@gmail.com</a>
+    </footer>
+  </div>
+</body>
+
+
+</html>

@@ -1,0 +1,126 @@
+body {
+  background-color: #f1f1d3;
+  color: #2b0202;
+  font-family: Verdana, Arial, sans-serif;
+}
+nav{
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  float: left;
+  width: 160px;
+}
+nav a{
+  text-decoration: none;
+}
+nav ul{
+  padding-left: 0px;
+  font-size: 1.2em;
+  list-style-type: none;
+}
+nav a:link{
+  color: #77503d;
+}
+nav a:visited{
+  color: #a5805f;
+}
+nav a:hover{
+  color: #fafadc;
+}
+main{
+  padding: 20px;
+  display: block;
+  background-color: #F5F5DC;
+  margin-left: 175px;
+}
+main img{
+  float: left;
+  padding-right: 2em;
+}
+main ul {
+    list-style-image: url('images/marker1.gif');
+    list-style-position: inside;
+}
+main div{
+  overflow: auto;
+  font-size: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+h1{
+  height: 100px;
+  margin:0px;
+  background-image: url('images/javajambackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+}
+h2{
+  font-family: Georgia, "Times New Romman",serif;
+}
+h3{
+  background-color: #e9d7a7;
+  text-transform: uppercase;
+}
+dt{
+ font-weight: bold;
+}
+header {
+  background-color: #cfb189;
+}
+footer{
+  background-color:#d3b286;
+  color: #000000;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
+footer a:link{
+  color: #1f0000;
+}
+footer a:visited{
+  color: #000000;
+}
+footer a:hover{
+  color: #f5f5d4;
+}
+table, td, th{
+  border: 0.1px solid rgb(5, 5, 5);
+  padding: 1px;
+  font-family: Arial,sans-serif;
+}
+td{
+  width:40%;
+  height: 40px;
+}
+tr:nth-of-type(2n){
+  background-color: rgb(236, 208, 181);
+}
+tr:nth-of-type(2n+1){
+  background-color: rgb(218, 181, 199);
+}
+
+#wrapper{
+  margin: auto;
+  width: 80%;
+  background-color: #ddcda9;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 3px 3px 3px #240000
+}
+#hero{
+  height: 300px;
+  color: #f3f3d3;
+  background-image: url('images/heroroad.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.news{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#submit{
+  margin-top: 10px;
+}
