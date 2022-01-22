@@ -1,0 +1,71 @@
+body {
+  background-color: #e6d4a3;
+  
+  color: #350202;
+  font-family: Verdana, Arial, sans-serif;
+}
+nav{
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  background-color: #e6d4a3;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+}
+main{
+  padding: 20px;
+  display: block;
+}
+ul {
+    list-style-image: url('images/marker1.gif');
+}
+h1{
+  height: 100px;
+  margin:0px;
+  background-image: url('images/javajambackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+}
+h2{
+  font-family: Georgia, "Times New Romman",serif;
+}
+h3{
+  background-color: #dfcd9e;
+  text-transform: uppercase;
+}
+dt{
+ font-weight: bold;
+}
+header {
+  background-color: #c9ab84;
+}
+footer{
+  background-color:#cfb087;
+  color: #000000;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
+#wrapper{
+  margin: auto;
+  width: 80%;
+  background-color: #f7f7d7;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 3px 3px 3px #2c0000
+}
+#hero{
+  height: 300px;
+  color: #f7f7d5;
+  background-image: url('images/heroroad.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.news{
+  margin-left: 20%;
+  margin-right: 20%;
+}
